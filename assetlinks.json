@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "vanphuc0497.job.mycv",
+    "sha256_cert_fingerprints":
+    ["A7:59:E9:F8:11:D4:F5:AF:4E:EF:F0:38:52:1E:AD:A2:54:31:D8:D0:13:82:F5:C5:38:7D:9C:DD:E8:8D:5E:BD"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://sign-in.recipe-app.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "vanphuc0497.job.mycv",
+    "sha256_cert_fingerprints":
+    ["A7:59:E9:F8:11:D4:F5:AF:4E:EF:F0:38:52:1E:AD:A2:54:31:D8:D0:13:82:F5:C5:38:7D:9C:DD:E8:8D:5E:BD"]
+  }
+}]
